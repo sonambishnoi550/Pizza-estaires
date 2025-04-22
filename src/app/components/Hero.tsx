@@ -3,10 +3,10 @@ import Image from 'next/image'
 import CustomButton from './common/CustomButton'
 const Hero = () => {
     return (
-        <div className="min-h-screen p-6 pt-20">
-            <div className="max-w-[1685px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+        <div className="p-6 pt-20">
+            <div className="max-w-[1438px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
                 <div className="">
-                    <h1 className="lg:text-[74px] md:text-6xl text-[28px] font-semibold leading-[110%] md:pb-[30px] pb-3">
+                    <h1 className="lg:text-[74px] md:text-6xl text-[28px] max-w-[611px] font-semibold leading-[110%] md:pb-[30px] pb-3">
                         Commandez, Savourez, Régalez-Vous </h1>
                     <p className="md:text-[40px] text-base leading-[130%] text-[#000000B2] lg:max-w-[385px] w-full pb-[30px]">en un clic, sans bouger de chez vous !</p> 
                     <CustomButton text="Commander maintenant" myClass="!text-white md:!block !hidden !rounded-full !bg-[#FF7F00] py-6 px-[33px] !text-xl !leading-[127%] !font-bold !uppercase !border-none" />

@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Footer = () => {
     return (
         <div className="bg-gradient-to-b from-white to-pink-100 text-black text-sm px-4">
-            <div className="max-w-[1685px] mx-auto py-8 flex flex-row !justify-between">
+            <div className="max-w-[1438px] mx-auto py-8 flex flex-row !justify-between">
                 <div className="mb-6 md:mb-0 flex md:block max-md:hidden max-sm:justify-center items-center md:items-start">
                     <img src="/assets/images/png/logo.png" alt="Logo" className="w-[124px] h-auto mb-2" />
                     <p className="text-center md:text-left md:hidden block max-w-[151px]">Plaza Estoires: Adresse, téléphone, VAT, SIREN</p>

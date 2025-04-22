@@ -19,9 +19,8 @@ const Header = () => {
 
     return (
         <>
-            <div id="navbar"
-                className={`z-40 w-full shadow-lg transition-all duration-300 `}>
-                <div className="px-4 max-w-[1685px] mx-auto pt-4">
+            <div className={`z-40 w-full shadow-lg transition-all duration-300 `}>
+                <div className="px-4 max-w-[1438px] mx-auto pt-4">
                     <div className={` ${open ? "" : "backdrop-blur-lg"} max-xl:px-[16px] flex items-center justify-between md:py-[19.5px]`}>
                         <Link href="/">
                             <Image width={124} height={116} src="/assets/images/png/logo.png" alt="logo" className="md:max-w-[124px] max-w-[78px] pointer-events-none" />
